@@ -71,3 +71,7 @@ CCompexVector::CCompexVector(const CCompexVector& copy) {
 void CCompexVector:: add(int i, const CCompexVector& a) {
 	data[i] = data[i] + a.dat()[i];
 }
+
+void CCompexVector::sub(int i, const CCompexVector& a) {
+	data[i] = data[i] - a.dat()[i];
+}
